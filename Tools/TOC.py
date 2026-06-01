@@ -11,6 +11,8 @@ def format_heading(heading:str)-> str:
     heading = ''.join(e for e in heading if e in allowed_chars) # May not be correct for heading formats in general but its a tool for me
     heading = re.sub(r'\s+', '-', heading)
 
+    heading = heading.lower() 
+
     return heading
 
 def grab_headings(lines: List[str]) -> List[str]:
@@ -25,6 +27,12 @@ def grab_headings(lines: List[str]) -> List[str]:
 
 
 def generate_TOC(path: str)->None:
+
+    #general format to follow
+
+    # Table of contents
+    # 1. [Literal name of heading](#literal-name-of-heading)
+    # 2. [Some other heading](#some-other-heading)
 
     try:
 
