@@ -2,7 +2,7 @@
 
 ## Statement
 
-This is an overview of the requirements E-Mail. The contents are similar but are not 1:1. This is because no consent was given for data collection from the stakeholder. This is just going to be some points and idea jotting to help me gather an idea on what can be done to help the stakeholder
+This is an overview of the requirements E-Mail. The contents are similar but are not 1:1. This is because no consent was given for data collection from the stakeholder. This is just going to be some points and idea jotting to help me gather an idea on what can be done to help the stakeholder. This file is going to be more of a stream of consciousness than an actual revised document. To see a revised document on the findings here and findings externally, look at [findings.tex](findings.tex)
 
 
 ## Raw filtered email
@@ -25,7 +25,14 @@ It could also have  a “ jobs available “ / skills Im looking for section
 
 Id like to have a reporting facility to check number of users  
 
-### Taking the ideas head on
+## Taking the ideas head on
 
 
-1. I want to prepare a database that can deliver a VOLUNTARY SECTOR JOB MATCH
+### I want to prepare a database that can deliver a VOLUNTARY SECTOR JOB MATCH
+
+A database might not be the most ideal idea for this straight away unless some app, microservice and/or website is needed. For a small company in the volunteering sector it might be better to utilise already existing technologies to minimise costs.
+
+What volunteering services and companies already exist?
+
+
+
