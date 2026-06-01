@@ -18,11 +18,10 @@ def format_heading(heading:str)-> str:
 def grab_headings(lines: List[str]) -> List[str]:
 
     heading_regex = r'^(#+)\s*(.+?)(\s*\(.*?\))?$'
-    headings = []
+    headings = {}
     for line in lines:
         if re.match(heading_regex, line):
-            heading = format_heading(line)
-            headings.append(heading)
+            headings[line] = format_heading(line)
     return headings
 
 
@@ -42,6 +41,7 @@ def generate_TOC(path: str)->None:
             for heading in headings:
                 # print(heading)
                 pass
+            print(headings)
 
 
     except FileNotFoundError as FE:
