@@ -21,7 +21,8 @@ def grab_headings(lines: List[str]) -> List[str]:
     headings = {}
     for line in lines:
         if re.match(heading_regex, line):
-            headings[line] = format_heading(line)
+            title = line.replace("#","")
+            headings[title] = format_heading(line)
     return headings
 
 
