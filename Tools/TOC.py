@@ -8,11 +8,11 @@ def generateTOC(path: str)->None:
     headings = []
 
 
-    with open(path,"r") as file:
+    with open(path,mode="r",encoding="utf-8") as file:
 
-        lines = file.read()
-        print(lines)
+        lines = file.readlines()
         for line in lines:
+            print(line)
             if re.match(heading_regex, line):
                 print(line)
 
