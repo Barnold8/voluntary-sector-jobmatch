@@ -7,13 +7,12 @@ from typing import List
 
 def format_heading(heading:str)-> str:
 
-    allowed_chars = string.ascii_lowercase + string.ascii_uppercase + '#' + ' '
+    allowed_chars = string.ascii_lowercase + string.ascii_uppercase + ' '
     heading = ''.join(e for e in heading if e in allowed_chars) # May not be correct for heading formats in general but its a tool for me
     heading = re.sub(r'\s+', '-', heading)
-    heading = re.sub(r'#+', '#', heading)
     heading = heading.lower() 
 
-    return heading
+    return f"#{heading}"
 
 def grab_headings(lines: List[str]) -> List[str]:
 
@@ -21,7 +20,9 @@ def grab_headings(lines: List[str]) -> List[str]:
     headings = {}
     for line in lines:
         if re.match(heading_regex, line):
-            title = line.replace("# ","")
+            title = line.replace('#','')
+            title = title[1:]
+
             headings[title] = format_heading(title)
     return headings
 
@@ -34,15 +35,18 @@ def generate_TOC(path: str)->None:
     # 1. [Literal name of heading](#literal-name-of-heading)
     # 2. [Some other heading](#some-other-heading)
 
+    counter = 1
+    table_of_contents = []
+
     try:
 
         with open(path,mode="r",encoding="utf-8") as file:
             headings = grab_headings(file.readlines())
 
-            for heading in headings:
-                # print(heading)
-                pass
+            # for k in headings:
+            #     print(k)
             print(headings)
+  
 
 
     except FileNotFoundError as FE:
