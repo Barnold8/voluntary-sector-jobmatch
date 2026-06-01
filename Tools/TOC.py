@@ -3,8 +3,6 @@ import re
 import string
 from typing import List
 
-# List[str]
-
 def format_heading(heading:str)-> str:
 
     allowed_chars = string.ascii_lowercase + string.ascii_uppercase + ' '
@@ -26,7 +24,6 @@ def grab_headings(lines: List[str]) -> List[str]:
             headings[title] = f"{format_heading(title)}"
 
     return headings
-
 
 def generate_TOC(path: str)->None:
 
@@ -58,7 +55,6 @@ def generate_TOC(path: str)->None:
     except FileNotFoundError as FE:
         print(f"Error detected, possible not file found error. Ensure that the path is correct. The path needs to be either absolute or relative from the current execution location.\n\nERROR: {FE}")
         exit(1)
-
 
 if __name__ == "__main__":
 
