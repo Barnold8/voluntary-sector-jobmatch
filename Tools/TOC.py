@@ -10,7 +10,7 @@ def format_heading(heading:str)-> str:
     allowed_chars = string.ascii_lowercase + string.ascii_uppercase + '#' + ' '
     heading = ''.join(e for e in heading if e in allowed_chars) # May not be correct for heading formats in general but its a tool for me
     heading = re.sub(r'\s+', '-', heading)
-
+    heading = re.sub(r'#+', '#', heading)
     heading = heading.lower() 
 
     return heading
@@ -21,8 +21,8 @@ def grab_headings(lines: List[str]) -> List[str]:
     headings = {}
     for line in lines:
         if re.match(heading_regex, line):
-            title = line.replace("#","")
-            headings[title] = format_heading(line)
+            title = line.replace("# ","")
+            headings[title] = format_heading(title)
     return headings
 
 
