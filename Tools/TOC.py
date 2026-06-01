@@ -8,13 +8,7 @@ from typing import List
 def format_heading(heading:str)-> str:
 
     allowed_chars = string.ascii_lowercase + string.ascii_uppercase + '#' + ' '
-    # heading = ''.join(e for e in heading if e in allowed_chars) # May not be correct for heading formats in general but its a tool for me
-
-    for char in heading:
-        print(char)
-        if char in allowed_chars:
-            print(f"{char} is going in")
-
+    heading = ''.join(e for e in heading if e in allowed_chars) # May not be correct for heading formats in general but its a tool for me
     heading = re.sub(r'\s+', '-', heading)
 
     return heading
@@ -38,7 +32,8 @@ def generate_TOC(path: str)->None:
             headings = grab_headings(file.readlines())
 
             for heading in headings:
-                print(heading)
+                # print(heading)
+                pass
 
 
     except FileNotFoundError as FE:
