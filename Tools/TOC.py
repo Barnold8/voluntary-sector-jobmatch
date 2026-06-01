@@ -22,7 +22,7 @@ def grab_headings(lines: List[str]) -> List[str]:
         if re.match(heading_regex, line):
             title = line.replace('#','')
             title = title[1:]
-            headings[title] = format_heading(title)
+            headings[title] = f"{format_heading(title)}\n"
 
     return headings
 
@@ -36,18 +36,23 @@ def generate_TOC(path: str)->None:
     # 2. [Some other heading](#some-other-heading)
 
     counter = 1
-    table_of_contents = []
+    table_of_contents = ["# Table of contents\n"]
 
     try:
 
         with open(path,mode="r",encoding="utf-8") as file:
 
-            headings = grab_headings(file.readlines())
+            contents = file.readlines()
+            headings = grab_headings(contents)
 
             for k in headings:
                 table_of_contents.append(f"{counter}. [{k}]({headings[k]})")
                 counter += 1
-        
+
+            contents = table_of_contents + contents
+
+        with open(path,mode="w",encoding="utf-8") as file:
+            file.writelines(contents)
 
     except FileNotFoundError as FE:
         print(f"Error detected, possible not file found error. Ensure that the path is correct. The path needs to be either absolute or relative from the current execution location.\n\nERROR: {FE}")
