@@ -24,3 +24,8 @@ It will need to describe knowledge areas, skills, previous or type of project/ w
 It could also have  a “ jobs available “ / skills Im looking for section
 
 Id like to have a reporting facility to check number of users  
+
+### Taking the ideas head on
+
+
+1. I want to prepare a database that can deliver a VOLUNTARY SECTOR JOB MATCH
