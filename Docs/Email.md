@@ -25,16 +25,9 @@ It could also have  a “ jobs available “ / skills Im looking for section
 
 Id like to have a reporting facility to check number of users  
 
-## Taking the ideas head on
-
-
-### I want to prepare a database that can deliver a VOLUNTARY SECTOR JOB MATCH
-
-A database might not be the most ideal idea for this straight away unless some app, microservice and/or website is needed. For a small company in the volunteering sector it might be better to utilise already existing technologies to minimise costs.
-
-What volunteering services and companies already exist and how are they operating?
+## What volunteering services and companies already exist and how are they operating?
     
-    This question is asked to gain some better understanding on how charities operate and what might be the most cost effective strategies 
+    This question is asked to gain some better understanding on how charities operate and what might be the most cost effective strategies. 
 
 #### [Reach volunteering](https://reachvolunteering.org.uk/)
 
@@ -45,13 +38,22 @@ This one is like a megaphone for smaller charities. Reach facilitates charities 
 
 <h4>Cons: </h4>
 
+- Limited on what volunteering roles can be posted 
+
 #### [CharityJob](https://www.charityjob.co.uk/?source=nav)
 
 CharityJob is a job site that also includes voluntering opportunities. CharityJob allows a volunteer poster to use their free tier which only allows a poster to keep the advert up for 90 days. They also have other tiers which depending on the funding of the charity could allow things postings being featured to relevant candidates, appear at the top of search results and be included in email alerts. For more on the price plan see [here](https://www.charityjob.co.uk/recruiters#:~:text=Compare%20your%20options)
 
 <h4>Pros: </h4>
 
+- Easy and free to make a posting
+- Great testimonials
+- Works with a lot of charities already
+
 <h4>Cons: </h4>
+
+- Less likely to be seen due to the mix of job roles and volunteering roles
+- Less features than other sites due to paid features
 
 #### [Do It](https://www.doit.life/)
 
@@ -64,5 +66,19 @@ With their home page giving more information on themselves than their [about me]
 - High user count
 - GDPR compliant
 
-
 <h4>Cons: </h4>
+
+- Get lost in advertiser noise
+- Possibility to get flagged as spam or lost in a sea of fake postings
+
+
+
+## Taking the ideas head on
+
+
+
+
+### I want to prepare a database that can deliver a VOLUNTARY SECTOR JOB MATCH
+
+A database might not be the most ideal idea for this straight away unless some app, microservice and/or website is needed. For a small company in the volunteering sector it might be better to utilise already existing technologies to minimise costs.
+
