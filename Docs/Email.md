@@ -89,19 +89,19 @@ In this process, I am looking into how charities in more wealthy areas **and** p
 
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
-#### [TogetherCo - Brighton](https://togetherco.org.uk/)
+#### [TogetherCo  Brighton](https://togetherco.org.uk/)
 
-#### [TogetherCo - Brighton](https://volunteer.communityworks.org.uk/)
+#### [Manchester Community Central  Manchester](https://manchestercommunitycentral.org/volunteer-centre-manchester)
 
-#### [TogetherCo - Brighton](https://www.handsonlondon.org.uk/volunteer)
+#### [wtonvolunteers  Wolverhampton](https://wtonvolunteers.org/)
 
-#### [TogetherCo - Brighton](https://www.thekidsnetwork.org.uk/i-want-to-mentor?gad_source=1&gad_campaignid=22790719866&gbraid=0AAAAADRkgo9ZgrjOC3w8BTZU-XkR_5Yrm&gclid=Cj0KCQjw_vnQBhCxARIsADcZyxJlH0f1fgNgS3j_ExdetIzvqbD3oBxhusiLByw8EieP9HI863fcQbQaAlPtEALw_wcB)
+#### [The Kids Network London](https://www.thekidsnetwork.org.uk/i-want-to-mentor?gad_source=1&gad_campaignid=22790719866&gbraid=0AAAAADRkgo9ZgrjOC3w8BTZU-XkR_5Yrm&gclid=Cj0KCQjw_vnQBhCxARIsADcZyxJlH0f1fgNgS3j_ExdetIzvqbD3oBxhusiLByw8EieP9HI863fcQbQaAlPtEALw_wcB)
 
-#### [TogetherCo - Brighton](https://volunteercentrenewcastle.org.uk/)
+#### [Volunteer Centre Newcastle Newcastle](https://volunteercentrenewcastle.org.uk/)
 
-#### [TogetherCo - Brighton](https://vast.org.uk/)
+#### [Vast Stoke on Trent](https://vast.org.uk/)
 
-#### [bvsc - Birmingham](https://www.bvsc.org/)
+#### [BVSC Birmingham](https://www.bvsc.org/)
 
 
 ## Taking the ideas head on
