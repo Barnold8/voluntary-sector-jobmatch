@@ -90,12 +90,17 @@ In this process, I am looking into how charities in more wealthy areas **and** p
 
 So this charity uses a [form](https://togetherco.org.uk/volunteer-application/) to get information from the user, likely to store in a database or straight to a CSV based file. After the user clicks submit and the information is valid, it will be sent off to a server so its hard to gauge what systems are in place.  
 
+<h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
+Doesn't have any clear indicator on how to facilitate this. Might go through a seperate company like [Reach](https://reachvolunteering.org.uk/)
 
 #### [Manchester Community Central  Manchester](https://manchestercommunitycentral.org/volunteer-centre-manchester)
 
 <h4> How do they get volunteers? </h4>
 
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
+
+<h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
 
 #### [wtonvolunteers  Wolverhampton](https://wtonvolunteers.org/)
 
@@ -105,11 +110,15 @@ So this charity uses a [form](https://togetherco.org.uk/volunteer-application/) 
 
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
+<h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
 #### [Volunteer Centre Newcastle Newcastle](https://volunteercentrenewcastle.org.uk/)
 
 <h4> How do they get volunteers? </h4>
 
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
+
+<h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
 
 #### [Vast Stoke on Trent](https://vast.org.uk/)
 
@@ -117,11 +126,15 @@ So this charity uses a [form](https://togetherco.org.uk/volunteer-application/) 
 
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
+<h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
 #### [BVSC Birmingham](https://www.bvsc.org/)
 
 <h4> How do they get volunteers? </h4>
 
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
+
+<h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
 
 ## Taking the ideas head on
 
