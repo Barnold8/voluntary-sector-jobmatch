@@ -1,2 +1,6 @@
 1. TODO: Look at other small volunteering charity websites to see how they do it so we can 
-2. Write 3 types of cost solution types for each thing that is wanted from the stakeholder. Low cost, medium cost, high cost
+
+2. Look into 3rd party solutions for the following and how the self hosted version would compare
+    Note: compare possible costs and support (like 24/7 support from a 3rd party compared to one developer)
+
+3. Write 3 types of cost solution types for each thing that is wanted from the stakeholder. Low cost, medium cost, high cost
