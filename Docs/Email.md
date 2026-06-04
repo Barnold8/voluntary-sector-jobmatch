@@ -98,7 +98,7 @@ Doesn't have any clear indicator on how to facilitate this. Might go through a s
 
 <h4> How do they get volunteers? </h4>
 
-They have a section on their [website](https://manchestercommunitycentral.org/volunteer-centre-manchester/i-want-volunteer) which speaks about current opportunities. They also mention a in person drop in. While not necessary to book a slot, it is possible to do so via E-Mail.
+They have a section on their [website](https://manchestercommunitycentral.org/volunteer-centre-manchester/i-want-volunteer) which speaks about current opportunities. They also mention a in person drop in. While not necessary to book a slot, it is possible to do so via E-Mail or using the [calendly service](https://calendly.com/).
 
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
@@ -108,7 +108,9 @@ You can use the form at the bottom of [this page](https://manchestercommunitycen
 - [Exclaimer](https://exclaimer.com/lp/14-day-free-trial/?hstk_creative=810959687171&hstk_campaign=23892133625&hstk_network=googleAds&creative=810959687171&keyword=email%20brand%20consistency&matchtype=b&network=g&device=c&utm_term=email%20brand%20consistency&utm_campaign=UK%20%7C%20Search%20%7C%20Generic%20%7C%20Broad%20Match%20A%2FB%2FC%20Landing%20Page%20Test&utm_source=adwords-search&utm_medium=cpc&utm_content=Broad%20-%20Brand%20Identity&hsa_acc=4500841410&hsa_cam=23892133625&hsa_grp=195322110445&hsa_ad=810959687171&hsa_src=g&hsa_tgt=kwd-2424627345829&hsa_kw=email%20brand%20consistency&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23892133625&gbraid=0AAAAADzh7UANuNVAaIuF3fxvl9toXU9L-&gclid=CjwKCAjwxITRBhBYEiwA6mZm7UwT0Ct1B1Qu8LeeRH96L80FVK0YAwWXM3-chf2Cw3-fzRebgScf5hoCSUwQAvD_BwE)
 - [Monday campaigns](https://monday.com/crm/lp/campaigns?cq_src=google_ads&cq_cmp=23044226584&cq_term=email%20marketing%20software&cq_plac=&cq_net=g&cq_plt=gp&utm_medium=cpc&utm_source=adwordssearch&utm_campaign=gb-en-prm-workos-monday_campaigns-email_marketing-h-search-desktop-core-aw&utm_keyword=email%20marketing%20software&utm_match_type=p&cluster=crm_industries&subcluster=crm_healthcare&ati=&utm_adgroup=email%20marketing&utm_banner=775017905004&gad_source=1&gad_campaignid=23044226584&gbraid=0AAAAADeiQJuzMvjpNP5Fb8wJ0IXbxiNiK&gclid=CjwKCAjwxITRBhBYEiwA6mZm7Z7wvFhfbakc2QlzwoKGuzz8tRepHgZ_hfrbt0brv2AbROvnt8Z1aRoCZQ0QAvD_BwE)
 
-All of which cost money (with free trials available), but self hosted systems might work better. Like 
+All of which cost money (with free trials available), but self hosted systems might work better for cost effectiveness. Like a simple server running [python code](https://www.python.org/) using the [gmail API](https://developers.google.com/workspace/gmail/api/quickstart/python). You could even use the website's volunteering posts to generate new newsletters every week by [webscraping](https://en.wikipedia.org/wiki/Web_scraping)
+
+There is also [this page](https://manchestercommunitycentral.org/volunteer-centre-manchester/view-opportunities) which gives lists of job postings and allows searching for specific postings like when the volunteer work runs, where its located, area of interest and keyword searching. However this page is quite messy and hard to navigate
 
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
 
@@ -169,8 +171,12 @@ Much like the app perspective, it makes perfect sense. The same usages you would
 #### Consensus on topic
 
 
+
 ## Collection of form questions used for a company/organisation to post volunteering postings
+<h1> 
+DO THIS AFTER LOOKING AT ALL CHARITIES </h1>
 
 ## Collection of form questions used to aquire a volunteer
-
+<h1> 
+DO THIS AFTER LOOKING AT ALL CHARITIES </h1>
 
