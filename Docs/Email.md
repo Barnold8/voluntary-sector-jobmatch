@@ -4,7 +4,6 @@
 
 This is an overview of the requirements E-Mail. The contents are similar but are not 1:1. This is because no consent was given for data collection from the stakeholder. This is just going to be some points and idea jotting to help me gather an idea on what can be done to help the stakeholder. This file is going to be more of a stream of consciousness than an actual revised document. To see a revised document on the findings here and findings externally, look at [findings.tex](findings.tex)
 
-
 ## Raw filtered email
 
     I want to prepare a database that can deliver a VOLUNTARY SECTOR JOB MATCH .
@@ -77,7 +76,7 @@ With their home page giving more information on themselves than their [about me]
 
 ### A look into random charities from around the UK 
 
-In this process, I am looking into how charities in more wealthy areas **and** poorer areas operate. This is to get more of a financial idea on how these charities operate too. With this I can surmise on the technologies and practices that lower income and higher income charities operate on average. For example a higher wealth area charity _might_ use [redis](https://redis.io/) to cache user queries and have multiple on site machines to host web servers. Whereas a less wealthy area may only have a basic [static website](https://en.wikipedia.org/wiki/Static_web_page) with a link to a google form that employees at the charity sift through themselves with no automation. I am not going to state the areas of which have higher or lower wealth on average. However, I am using the [2021 cenesus map](https://www.ons.gov.uk/census/maps/choropleth/population/household-deprivation/hh-deprivation/household-is-deprived-in-one-dimension) from the [Office of national statistics](https://www.ons.gov.uk/)
+In this process, I am looking into how charities in more wealthy areas **and** poorer areas operate. This is to get more of a financial idea on how these charities operate too. With this I can surmise on the technologies and practices that lower income and higher income charities operate on average. For example a higher wealth area charity _might_ use [redis](https://redis.io/) to cache user queries and have multiple on site machines to host web servers. Whereas a less wealthy area may only have a basic [static website](https://en.wikipedia.org/wiki/Static_web_page) with a link to a google form that employees at the charity sift through themselves with no automation. I am not going to state the areas of which have higher or lower wealth on average. However, I am using the [2021 cenesus map](https://www.ons.gov.uk/census/maps/choropleth/population/household-deprivation/hh-deprivation/household-is-deprived-in-one-dimension) from the [Office of national statistics](https://www.ons.gov.uk/). The reason im looking into localised charities specifically is to better align technological methodologies that work to what the stakeholder requires. 
 
 #### [TogetherCo - Brighton](https://togetherco.org.uk/)
 
@@ -89,20 +88,40 @@ In this process, I am looking into how charities in more wealthy areas **and** p
 
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
-#### [TogetherCo  Brighton](https://togetherco.org.uk/)
+So this charity uses a [form](https://togetherco.org.uk/volunteer-application/) to get information from the user, likely to store in a database or straight to a CSV based file. After the user clicks submit and the information is valid, it will be sent off to a server so its hard to gauge what systems are in place.  
+
 
 #### [Manchester Community Central  Manchester](https://manchestercommunitycentral.org/volunteer-centre-manchester)
+
+<h4> How do they get volunteers? </h4>
+
+<h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
 #### [wtonvolunteers  Wolverhampton](https://wtonvolunteers.org/)
 
 #### [The Kids Network London](https://www.thekidsnetwork.org.uk/i-want-to-mentor?gad_source=1&gad_campaignid=22790719866&gbraid=0AAAAADRkgo9ZgrjOC3w8BTZU-XkR_5Yrm&gclid=Cj0KCQjw_vnQBhCxARIsADcZyxJlH0f1fgNgS3j_ExdetIzvqbD3oBxhusiLByw8EieP9HI863fcQbQaAlPtEALw_wcB)
 
+<h4> How do they get volunteers? </h4>
+
+<h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
+
 #### [Volunteer Centre Newcastle Newcastle](https://volunteercentrenewcastle.org.uk/)
+
+<h4> How do they get volunteers? </h4>
+
+<h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
 #### [Vast Stoke on Trent](https://vast.org.uk/)
 
+<h4> How do they get volunteers? </h4>
+
+<h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
+
 #### [BVSC Birmingham](https://www.bvsc.org/)
 
+<h4> How do they get volunteers? </h4>
+
+<h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
 ## Taking the ideas head on
 
