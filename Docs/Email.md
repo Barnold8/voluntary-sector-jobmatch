@@ -102,9 +102,17 @@ They have a section on their [website](https://manchestercommunitycentral.org/vo
 
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
+You can use the form at the bottom of [this page](https://manchestercommunitycentral.org/volunteer-centre-manchester/i-want-volunteer#:~:text=Volunteer%20Newsletter) to fill in a newsletter form. This indicates that either an employee CCs and email to a list of people or some automated newsletter platform. From a quick google, platforms for automated newsletters exist like:
+
+- [CleverReach](https://www.cleverreach.com/en/newsletter-tool/creating-and-designing-newsletters/?tl=o8ejlo-aw_uk_cn&gad_source=1&gad_campaignid=1370877092&gbraid=0AAAAADj-Y5p11HESNGlfDIL4UX7zsALFv&gclid=CjwKCAjwxITRBhBYEiwA6mZm7ZlYPj1hoQf-Fzp6Ay-qqrejPVhJTuu8OYbZEhog0A4dmfQC6n6xlBoCZxUQAvD_BwE)
+- [Exclaimer](https://exclaimer.com/lp/14-day-free-trial/?hstk_creative=810959687171&hstk_campaign=23892133625&hstk_network=googleAds&creative=810959687171&keyword=email%20brand%20consistency&matchtype=b&network=g&device=c&utm_term=email%20brand%20consistency&utm_campaign=UK%20%7C%20Search%20%7C%20Generic%20%7C%20Broad%20Match%20A%2FB%2FC%20Landing%20Page%20Test&utm_source=adwords-search&utm_medium=cpc&utm_content=Broad%20-%20Brand%20Identity&hsa_acc=4500841410&hsa_cam=23892133625&hsa_grp=195322110445&hsa_ad=810959687171&hsa_src=g&hsa_tgt=kwd-2424627345829&hsa_kw=email%20brand%20consistency&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23892133625&gbraid=0AAAAADzh7UANuNVAaIuF3fxvl9toXU9L-&gclid=CjwKCAjwxITRBhBYEiwA6mZm7UwT0Ct1B1Qu8LeeRH96L80FVK0YAwWXM3-chf2Cw3-fzRebgScf5hoCSUwQAvD_BwE)
+- [Monday campaigns](https://monday.com/crm/lp/campaigns?cq_src=google_ads&cq_cmp=23044226584&cq_term=email%20marketing%20software&cq_plac=&cq_net=g&cq_plt=gp&utm_medium=cpc&utm_source=adwordssearch&utm_campaign=gb-en-prm-workos-monday_campaigns-email_marketing-h-search-desktop-core-aw&utm_keyword=email%20marketing%20software&utm_match_type=p&cluster=crm_industries&subcluster=crm_healthcare&ati=&utm_adgroup=email%20marketing&utm_banner=775017905004&gad_source=1&gad_campaignid=23044226584&gbraid=0AAAAADeiQJuzMvjpNP5Fb8wJ0IXbxiNiK&gclid=CjwKCAjwxITRBhBYEiwA6mZm7Z7wvFhfbakc2QlzwoKGuzz8tRepHgZ_hfrbt0brv2AbROvnt8Z1aRoCZQ0QAvD_BwE)
+
+All of which cost money (with free trials available), but self hosted systems might work better. Like 
+
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
 
-As an organisation, you can go through a step by step form process asking 
+As an organisation, you can go through a step by step form process asking for specific questions and then it says you can expect to be contacted within 5/10 days. 
 
 #### [wtonvolunteers  Wolverhampton](https://wtonvolunteers.org/)
 
@@ -162,4 +170,7 @@ Much like the app perspective, it makes perfect sense. The same usages you would
 
 
 ## Collection of form questions used for a company/organisation to post volunteering postings
+
+## Collection of form questions used to aquire a volunteer
+
 
