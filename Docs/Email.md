@@ -98,9 +98,13 @@ Doesn't have any clear indicator on how to facilitate this. Might go through a s
 
 <h4> How do they get volunteers? </h4>
 
+They have a section on their [website](https://manchestercommunitycentral.org/volunteer-centre-manchester/i-want-volunteer) which speaks about current opportunities. They also mention a in person drop in. While not necessary to book a slot, it is possible to do so via E-Mail.
+
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
+As an organisation, you can go through a step by step form process asking 
 
 #### [wtonvolunteers  Wolverhampton](https://wtonvolunteers.org/)
 
@@ -153,3 +157,9 @@ This would be more of something like an [API](https://en.wikipedia.org/wiki/API)
 #### Usage for a website
 
 Much like the app perspective, it makes perfect sense. The same usages you would have for a databse for an app, you would have for a website too. In fact, your website and app could be pulling from the same server but using their respective technologies (like a [web browser](https://en.wikipedia.org/wiki/Web_browser), [app framework](https://developer.android.com/studio?gclsrc=aw.ds&gad_source=1&gad_campaignid=21831783765&gbraid=0AAAAAC-IOZlBp3YbgXT-JrGgb1AAgF07y&gclid=Cj0KCQjw_vnQBhCxARIsADcZyxKEUWY1-eJuf-FFt4QEOMyA0PQYZ2OeX3fH-dCSjJoNFEm91e08zBYaAuExEALw_wcB))
+
+#### Consensus on topic
+
+
+## Collection of form questions used for a company/organisation to post volunteering postings
+
