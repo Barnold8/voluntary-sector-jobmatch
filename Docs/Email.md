@@ -118,13 +118,32 @@ As an organisation, you can go through a step by step form process asking for sp
 
 #### [wtonvolunteers  Wolverhampton](https://wtonvolunteers.org/)
 
+<h4> How do they get volunteers? </h4>
+
+You sign up for an account on their website and that gives you access to their [apply for opportunities page](https://wtonvolunteers.org/choosing-opportunities/apply-here/). Their registration requires approval, which would weed out spam accounts for the volunteer side of things. Might use a simple form on the front end and have a human manually go through the registrations. However I am unable to gather how the volunteer application process goes ahead at this time. 
+
+<h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
+
+This is obfuscated to me at this time because you require to be approved to gain access to their webpages that facilitate volunteer applications. This might just be as simple as a database storing user accounts, hashing the password and then comparing the login hash to authenticate user login and then using session cookies to keep them logged in. With the auth of the user, they can then access content from the charity. 
+
+<h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
+They provide a [doc for organisations to register](https://app.box.com/s/x18ra9o5fbduex30xs8mwy2ighabzobp) and also [a doc for volunteering opportunities to be registered too](https://app.box.com/s/5xf7jcmosjv1he6pndilvkyysutkv5ix). They use a service called [box](https://www.box.com/en-gb/home?url_redirect=direct) which is used to host documents. This seems like a cost heavy idea for something that could be done in a form like what is already seen on the wesbite
+
+
 #### [The Kids Network London](https://www.thekidsnetwork.org.uk/i-want-to-mentor?gad_source=1&gad_campaignid=22790719866&gbraid=0AAAAADRkgo9ZgrjOC3w8BTZU-XkR_5Yrm&gclid=Cj0KCQjw_vnQBhCxARIsADcZyxJlH0f1fgNgS3j_ExdetIzvqbD3oBxhusiLByw8EieP9HI863fcQbQaAlPtEALw_wcB)
 
 <h4> How do they get volunteers? </h4>
 
+A simple form is used on their website and is most likely stored or generated into a CV like PDF for manual review. 
+
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
+No extra information needed. 
+
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
+Not entirely applicable to this but they use [calendly](https://calendly.com/) to book a call or they take an email for communications
 
 #### [Volunteer Centre Newcastle Newcastle](https://volunteercentrenewcastle.org.uk/)
 
@@ -149,6 +168,16 @@ As an organisation, you can go through a step by step form process asking for sp
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
+
+#### [rainbows](https://www.rainbows.co.uk/)
+
+<h4> How do they get volunteers? </h4>
+
+<h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
+
+<h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
 
 ## Taking the ideas head on
 
