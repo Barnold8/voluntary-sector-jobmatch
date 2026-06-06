@@ -149,26 +149,51 @@ Not entirely applicable to this but they use [calendly](https://calendly.com/) t
 
 <h4> How do they get volunteers? </h4>
 
+<h5> under 18's </h5>
+
+A [page](https://volunteercentrenewcastle.org.uk/young-volunteers) with a carousel that shows top opportunities that under 18s can apply for
+
+<h5> over 18's </h5>
+
+Same as the under 18's section but with proper listings for 18+ postings. 
+
+Both contain a postcode field and keyword field to search up postings that then does show a proper list of postings in proximity to the postcode. 
+
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
+Once you have an account, you can register for postings. Registering is just a simple form which allows you to state availability and also lets you sign up for their newsletter.
+
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
+They use [Office365](https://www.office.com/) to facilitate companies filling in forms. They have [a form](https://forms.office.com/pages/responsepage.aspx?id=Rl7moRJ77kqULnLUi60mf7OdWObtaC5LlHQTimcI7jNUM1BXQUVMRzlVWUhTQjY4VkEwSlRXMlc4VS4u&route=shorturl) for companies registering with the charity and [another](https://forms.office.com/pages/responsepage.aspx?id=Rl7moRJ77kqULnLUi60mf7OdWObtaC5LlHQTimcI7jNUMEdDVkRKTkRFMUExNVFTMjcxRkFYVjNDTi4u&route=shorturl) for companies to post their advertisements directly. Most likely somebody is manually going through all of the forms themselves. 
 
 #### [Vast Stoke on Trent](https://vast.org.uk/)
 
 <h4> How do they get volunteers? </h4>
 
+Much like many websites thus far, you will be filling out a [form](https://vast.org.uk/upload-your-opportunity/) and submit it for a review. There is also a system to [search for opportunities](https://vast.org.uk/volunteer-opportunities/) too. What is concerning is the entire list of postings might be on the page to begin with which would concern the client with loading times possibly pushing a user with slower internet away. 
+
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
+Submitting a volunteer posting is the same as applying to be a volunteer too. A [form](https://vast.org.uk/upload-your-opportunity/). They also provide some sort of [system](https://vast.org.uk/calendar/) to see events coming up sorted by soonest to latest
+
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
+They have a [small form you can fill in](https://vast.org.uk/contact-us/) and it seems like this is their preference but they also provide a phone number, email address and a number for whatsapp communications
 
 #### [BVSC Birmingham](https://www.bvsc.org/)
 
 <h4> How do they get volunteers? </h4>
 
+They have a [listings page]() of volunteer opportunities. However you are required to have an account 
+
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
+
+Its not that good, they have a whole other [website](https://www.volunteerbrum.org/) which doesnt come up at the top of search results for "birmingham volunteer charity" or searches like it, which is misleading and makes it harder to look for volunteering opportunities for the average user. 
 
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
 
+You can become an [organisational member](https://www.bvsc.org/join-now#:~:text=of%20these%20options.-,Become%20an%20organisational%20Member%20of%20BVSC,-BVSC%20is%20proud) of BVSC. You can also [promote](https://www.bvsc.org/promote-your-organisation) through the BVSC. There is also a way to [work directly with BVSC](https://www.bvsc.org/work-with-us) which might provide a better outcome.  
 
 #### [rainbows](https://www.rainbows.co.uk/)
 
@@ -177,6 +202,8 @@ Not entirely applicable to this but they use [calendly](https://calendly.com/) t
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
+
+
 
 
 ## Taking the ideas head on
