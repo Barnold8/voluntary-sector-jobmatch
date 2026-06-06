@@ -185,25 +185,30 @@ They have a [small form you can fill in](https://vast.org.uk/contact-us/) and it
 
 <h4> How do they get volunteers? </h4>
 
-They have a [listings page]() of volunteer opportunities. However you are required to have an account 
+They have a [listings page](https://www.volunteerbrum.org/volunteer/all/activities?search_radius=50) of volunteer opportunities. However you are required to have an account to apply for such positions. 
 
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
 
-Its not that good, they have a whole other [website](https://www.volunteerbrum.org/) which doesnt come up at the top of search results for "birmingham volunteer charity" or searches like it, which is misleading and makes it harder to look for volunteering opportunities for the average user. 
+Its not that good, they have a whole other [website](https://www.volunteerbrum.org/) which doesnt come up at the top of search results for "birmingham volunteer charity" or searches like it, which is misleading and makes it harder to look for volunteering opportunities for the average user. Information on the process is also included in this section's "How do they get volunteers?" section. 
 
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
 
-You can become an [organisational member](https://www.bvsc.org/join-now#:~:text=of%20these%20options.-,Become%20an%20organisational%20Member%20of%20BVSC,-BVSC%20is%20proud) of BVSC. You can also [promote](https://www.bvsc.org/promote-your-organisation) through the BVSC. There is also a way to [work directly with BVSC](https://www.bvsc.org/work-with-us) which might provide a better outcome.  
+You can become an [organisational member](https://www.bvsc.org/join-now#:~:text=of%20these%20options.-,Become%20an%20organisational%20Member%20of%20BVSC,-BVSC%20is%20proud) of BVSC. You can also [promote](https://www.bvsc.org/promote-your-organisation) through the BVSC. There is also a way to [work directly with BVSC](https://www.bvsc.org/work-with-us) which might provide a better outcome.  After further investigating, there is also [this page](https://www.volunteerbrum.org/for-organisations) which provides a way to make an account to be able to post opportunities with. 
 
 #### [rainbows](https://www.rainbows.co.uk/)
 
 <h4> How do they get volunteers? </h4>
 
+They have a [listings page](https://rainbows.goassemble.com/opportunities/results#display=grid&s=date_advertised&o=desc&limit=14&include=image&public_search=true) to see all postings. 
+
+
 <h4> How is the process applying to be a volunteer and what systems are cleary visible</h4>
+
+Its a [multi step form](https://en.wikipedia.org/wiki/Wizard_(software)) for each posting where you put your details down that seems to double as an account set up (earlier in the form you put your email and address and at the end you write a password to use). A weird mechanism but im assuming having an account auto applies all this information automatically. 
 
 <h4> how do they facilitate companies/organisations to post volunteering opportunities </h4>
 
-
+Due to this charity being closely tied to childrens hospice, there isnt anything in terms of volunteer postings. However I can still look at this charity for terms of the prospective volunteer.
 
 
 ## Taking the ideas head on
