@@ -1,4 +1,6 @@
-1. TODO: Look at other small volunteering charity websites to see how they do it so we can 
+TODO:
+
+1. Look at other small volunteering charity websites to see how they do it so we can 
 
 2. Look into 3rd party solutions for the following and how the self hosted version would compare
     Note: compare possible costs and support (like 24/7 support from a 3rd party compared to one developer)
