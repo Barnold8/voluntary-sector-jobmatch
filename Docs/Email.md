@@ -272,6 +272,7 @@ An automation platform would be a medium cost effective way to go about this whe
     - 24/7 support
     - Has support for databases so we can store user accounts and organisation accounts as well as postings
     - Has possibility of completely replacing a charity website if need be, otherwise have links to n8n nodes. 
+    - Can automatically match users with volunteering opportunities
 
 - Cons
 
@@ -285,9 +286,13 @@ An automation platform would be a medium cost effective way to go about this whe
 
 <h3> High cost </h3>
 
-A high cost methodology would be something that can withstand high user bandwith and be error corrective and automatic. First we will need to store user accounts, this will be done to avoid spam applicants and [scrapers](https://en.wikipedia.org/wiki/Web_scraping), its a good idea to store the organisation accounts too so companies can post volunteering roles and have seperate permissions in comparison to the user when using the website. To store said accounts we will need a [database](https://en.wikipedia.org/wiki/Database) with multiple [tables](https://en.wikipedia.org/wiki/Table_(database)) and it needs to be [relational](https://en.wikipedia.org/wiki/Relational_database), this will need to be hosted on a server. We also need to have a [server](https://en.wikipedia.org/wiki/Web_server) that hosts the website, preferably a different machine or sub section of a [VPS](https://en.wikipedia.org/wiki/Virtual_private_server), which is where some of the cost will come from. The server could be self hosted on a [local machine](https://www.linfo.org/local_machine.html) or on a cloud service like [digital ocean](https://www.digitalocean.com/solutions/vps-hosting)
+A high cost methodology would be something that can withstand high user bandwith and be error corrective and automatic. First we will need to store user accounts, this will be done to avoid spam applicants and [scrapers](https://en.wikipedia.org/wiki/Web_scraping), its a good idea to store the organisation accounts too so companies can post volunteering roles and have seperate permissions in comparison to the user when using the website. To store said accounts we will need a [database](https://en.wikipedia.org/wiki/Database) with multiple [tables](https://en.wikipedia.org/wiki/Table_(database)) and it needs to be [relational](https://en.wikipedia.org/wiki/Relational_database), this will need to be hosted on a server. We also need to have a [server](https://en.wikipedia.org/wiki/Web_server) that hosts the website, preferably a different machine or sub section of a [VPS](https://en.wikipedia.org/wiki/Virtual_private_server), which is where some of the cost will come from. The server could be self hosted on a [local machine](https://www.linfo.org/local_machine.html) or on a cloud service like [digital ocean](https://www.digitalocean.com/solutions/vps-hosting). For the event of high traffic, we will need to use [load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing)) and use something like [redis](https://redis.io/) to [cache](https://en.wikipedia.org/wiki/Cache_(computing)) [user queries](https://en.wikipedia.org/wiki/SQL) to limit how much traffic is sent to the database servers to allow more and more users to use the service at the same time. 
 
-[load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
+A system will need to be put in place to match users to voluntary job roles regularly, this will be some seperate service hosted alongside the other servers. This would be a machine or part of a VPS that is not visible to the public internet and will have access to the databases in question. The system will need to query for users who have consented to being matched to job roles autonomously, it will then need to query the job roles table to find common matches for things like skill sets, desirable 
+
+We can even use docker on the backend to implement [horizontal scaling](https://dataengineering.wiki/Concepts/Software+Engineering/Horizontal+Scaling). What this means is if one or more of the services in relation to the charity has gone down, another node can be started in replacement of it, allowing for the system to be up majority of the time. In comparison to a singular server or servers without this option, it would take a user to reboot the machine and rerun the software whereas this docker based system could do this autonomously. 
+
+
 
 **Pros vs cons**
 
@@ -297,56 +302,14 @@ A high cost methodology would be something that can withstand high user bandwith
 
 - Cons
 
-    - con1
+    - No 24/7 support unless the developer company has it, this may not be the case in terms of a solo developer
+    - Complex system will be hard for the average user to understand if it needs fixing
+    - Will need maintenance and manual security updates
+    - 
 
 ### I may mean VOLUNTARY SECTOR SKILLS match
 
-#### Consensus on topic
-
-<h3>Low cost</h3>
-
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-
-    - con1
-
-<h3> Medium cost </h3>
-
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-
-    - con1
-
-<h3> High cost </h3>
-
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-
-    - con1
-
-
-
+This section was covered in the previous section
 
 ### There is also an element of CAREER DEVELOPMENT in the **REDACTED** voluntary sector
 
