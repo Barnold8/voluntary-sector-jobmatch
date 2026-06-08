@@ -254,19 +254,22 @@ A low cost methodology for this would be based on using [google forms](https://d
     - Employee working with data must know what roles match with what opportunities rather than having users match automatically
     - Employees must contact organisations for the match rather than the user being able to contact directly 
 
-
 <h3> Medium cost </h3>
 
-Maybe an automation platform?
+An automation platform would be a medium cost effective way to go about this when looking at the [n8n platform](https://n8n.io/). Why is this? Well we can have multiple forms, pages etc to take on user interaction and automate the entire process. We can have systems that are frequently checking users against volunteering opportunties to properly match them with roles and have Ai systems help users progress their careers via voluntary roles. 
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - Automation
+    - Provides a [front end](https://en.wikipedia.org/wiki/Front_end_and_back_end) for all needed services
+    - AI powered 
+    - Contains a lot of 3rd party services like [survey monkey](https://www.surveymonkey.com/) and [Gmail](https://www.google.com/gmail/about/signup_complete.html)
+    - Has AI chat assistant that _**sometimes**_ helps out with problems encountered in the automation process
 
 - Cons
-    - con1
+    - Requires somewhat knowlegeable user to set up the initial systems
 
 <h3> High cost </h3>
 
