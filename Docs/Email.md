@@ -233,17 +233,16 @@ Much like the app perspective, it makes perfect sense. The same usages you would
 
 <h3>Low cost</h3>
 
-A low cost methodology for this would be based on using [google forms](https://docs.google.com/). The reasoning behind this is that it is **FREE** and can be easily converted to a .csv file for viewing in something like [Microsoft Excel](https://www.microsoft.com/en-gb/microsoft-365/excel) or [LibreOffice Calc](https://www.libreoffice.org/). However a user will have to manually click the generate csv button on the forms page and then open it and manually go through it. Granted, if they are used to the software, they could perform expressions to sift through data. On the charity website, a link to the form will be required. 
+A low cost methodology for this would be based on using [google forms](https://docs.google.com/). The reasoning behind this is that it is **FREE** and can be easily converted to a .csv file for viewing in something like [Microsoft Excel](https://www.microsoft.com/en-gb/microsoft-365/excel) or [LibreOffice Calc](https://www.libreoffice.org/). However a user will have to manually click the generate csv button on the forms page and then open it and manually go through it. Granted, if they are used to the software, they could perform expressions to sift through data. On the charity website, a link to the form will be required. A [VMS - Volunteer management system](https://en.wikipedia.org/wiki/Volunteer_management) like [Plinth](https://www.plinth.org.uk/) will be required to list and host the volunteering job postings. 
 
 **Pros vs cons**
 
 - Pros
 
-    - Free
-    - Can take all the required data
-    - Reliable (because its using a big 3rd party platform)
-    - No sign up is required to apply for a volunteering role and spam can relatively be filtered out because an email address is required to submit a form application
+    - Reliable (because its using a big 3rd party platform in terms of google forms)
+    - No sign up is required to apply to be a listed volunteer and spam can relatively be filtered out because an email address is required to submit a form application
     - Form can be used to facilitate companies posting their volunteer roles
+    - Cost effective
 
 - Cons
 
@@ -255,6 +254,7 @@ A low cost methodology for this would be based on using [google forms](https://d
     - Employee working with data must know what roles match with what opportunities rather than having users match automatically
     - Employees must contact organisations for the match rather than the user being able to contact directly 
     - Employees will have to update the listings page for roles after they have manually 
+    - A VMS is required which costs money in the long run
 
 <h3> Medium cost </h3>
 
@@ -273,6 +273,7 @@ An automation platform would be a medium cost effective way to go about this whe
     - Has support for databases so we can store user accounts and organisation accounts as well as postings
     - Has possibility of completely replacing a charity website if need be, otherwise have links to n8n nodes. 
     - Can automatically match users with volunteering opportunities
+    - Can use data table to store volunteer profiles, postings and also organisation accounts
 
 - Cons
 
@@ -283,29 +284,40 @@ An automation platform would be a medium cost effective way to go about this whe
     - Limited AI usage based on the plan used
     - Possibly less permission filtering in comparison to other systems
     - If it goes down theres nothing you can do, no way to fix it yourself
+    - A programmer may be needed for the custom points of nodes in the automation platform
+        - For example, to sift through data before another node is executed, code will need to be written to parse the data to be usable to one's requirements.
+    - Data table may be limited in data storage scope
 
 <h3> High cost </h3>
 
-A high cost methodology would be something that can withstand high user bandwith and be error corrective and automatic. First we will need to store user accounts, this will be done to avoid spam applicants and [scrapers](https://en.wikipedia.org/wiki/Web_scraping), its a good idea to store the organisation accounts too so companies can post volunteering roles and have seperate permissions in comparison to the user when using the website. To store said accounts we will need a [database](https://en.wikipedia.org/wiki/Database) with multiple [tables](https://en.wikipedia.org/wiki/Table_(database)) and it needs to be [relational](https://en.wikipedia.org/wiki/Relational_database), this will need to be hosted on a server. We also need to have a [server](https://en.wikipedia.org/wiki/Web_server) that hosts the website, preferably a different machine or sub section of a [VPS](https://en.wikipedia.org/wiki/Virtual_private_server), which is where some of the cost will come from. The server could be self hosted on a [local machine](https://www.linfo.org/local_machine.html) or on a cloud service like [digital ocean](https://www.digitalocean.com/solutions/vps-hosting). For the event of high traffic, we will need to use [load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing)) and use something like [redis](https://redis.io/) to [cache](https://en.wikipedia.org/wiki/Cache_(computing)) [user queries](https://en.wikipedia.org/wiki/SQL) to limit how much traffic is sent to the database servers to allow more and more users to use the service at the same time. 
+A high cost methodology would be something that can withstand high user bandwith and be error corrective and automatic. First we will need to store user accounts, this will be done to avoid spam applicants and [scrapers](https://en.wikipedia.org/wiki/Web_scraping), its a good idea to store the organisation accounts too so companies can post volunteering roles and have seperate permissions in comparison to the user when using the website. On top of accounts, there will need to be a table for roles as well as some link to the organisation poster as well to facilitate editing/removal of a post. To store said accounts we will need a [database](https://en.wikipedia.org/wiki/Database) with multiple [tables](https://en.wikipedia.org/wiki/Table_(database)) and it needs to be [relational](https://en.wikipedia.org/wiki/Relational_database), this will need to be hosted on a server. We also need to have a [server](https://en.wikipedia.org/wiki/Web_server) that hosts the website, preferably a different machine or sub section of a [VPS](https://en.wikipedia.org/wiki/Virtual_private_server), which is where some of the cost will come from. The server could be self hosted on a [local machine](https://www.linfo.org/local_machine.html) or on a cloud service like [digital ocean](https://www.digitalocean.com/solutions/vps-hosting). For the event of high traffic, we will need to use [load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing)) and use something like [redis](https://redis.io/) to [cache](https://en.wikipedia.org/wiki/Cache_(computing)) [user queries](https://en.wikipedia.org/wiki/SQL) to limit how much traffic is sent to the database servers to allow more and more users to use the service at the same time. 
 
-A system will need to be put in place to match users to voluntary job roles regularly, this will be some seperate service hosted alongside the other servers. This would be a machine or part of a VPS that is not visible to the public internet and will have access to the databases in question. The system will need to query for users who have consented to being matched to job roles autonomously, it will then need to query the job roles table to find common matches for things like skill sets, desirable 
+A [mircoservice](https://en.wikipedia.org/wiki/Microservices) will need to be put in place to match users to voluntary job roles regularly, this will be some a mircoservice hosted alongside the other servers. This would be a machine or part of a VPS that is not visible to the public internet and will have access to the databases in question. The system will need to query for users who have consented to being matched to job roles autonomously, it will then need to query the job roles table to find common matches for things like skill sets, desirable job sectors among other possible fields. This honestly, could just be part of an already existing server to minimise costs. While it could be seperate like mentioned before, it wouldnt take up too much processing power to perform. 
 
 We can even use docker on the backend to implement [horizontal scaling](https://dataengineering.wiki/Concepts/Software+Engineering/Horizontal+Scaling). What this means is if one or more of the services in relation to the charity has gone down, another node can be started in replacement of it, allowing for the system to be up majority of the time. In comparison to a singular server or servers without this option, it would take a user to reboot the machine and rerun the software whereas this docker based system could do this autonomously. 
-
-
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - Very versatile
+    - Can be moulded to do anything
+    - Handles high traffic
+    - Automated correction systems, i.e reboots self as many times as needed
+    - Can be remade at any time to fit new specifications (like if a new law has been passed etc)
+    - If no VPS, can be fixed anytime with no restrictions (forgetting work hours for the employed developer etc)
 
 - Cons
 
     - No 24/7 support unless the developer company has it, this may not be the case in terms of a solo developer
     - Complex system will be hard for the average user to understand if it needs fixing
     - Will need maintenance and manual security updates
-    - 
+    - High costs for physical machines, electricity bills or the charges of VPS service uptime
+    - Hard to be changed if no documentation is written for the codebase
+    - Security risk if not updated (big GDDPR nightmare)
+    - GDPR has to be manually adhered to without automation, i.e systems need to be written to handle sensitive data accordingly 
+    - Consent has to be authored manually rather than using a third party
+    - In the case of a VPS, if it goes down, there is no fixing it
 
 ### I may mean VOLUNTARY SECTOR SKILLS match
 
@@ -313,95 +325,53 @@ This section was covered in the previous section
 
 ### There is also an element of CAREER DEVELOPMENT in the **REDACTED** voluntary sector
 
+For this section, a career development could be something automated or manual. For manual, an employee would need to go through job roles and check what matches with volunteers, like how job "A" could provide volunteer "B" with the skills needed to progress in their career. The employee would be required to contact the volunteer to see what sort of skills and experience they need to progress further in their career and then correspond to organisations associated with the charity to set up the voluntary work. An automated system could check what tags a user has for their career development and cross check them with organisations logged on the charities database and create some automated correspondance. For example an automated Email stating the volunteering roles that have the experience the user needs so they can apply for them personally. 
+
 #### Consensus on topic
 
 <h3>Low cost</h3>
 
-
+The low cost approach would be the manual one. An employee would need to sift through a [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file to cross reference skills/experience needed with the correct job roles logged on a seperate CSV file. 
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - Free
 
 - Cons
-    - con1
+
+    - Harder to adhere to GDPR guidelines
+        - if the file is forgotten about or a row isnt cleared accordingly, sensitive data may still be logged after is expiration
+    - Requires manual labor
+    - Takes up valuable employee time
 
 <h3> Medium cost </h3>
 
-
+Medium cost would again preferably be a cheap 3rd party system like n8n, which was mentioned before. This could log users and organisations with the correct tags in the data to autonomously match users with their aspiring volunteering roles. With this automation, data that has expired, can automatically be cleared and even before this, an automated consent email can be sent to the user to gain more time to keep said data. 
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - Automated
+    - Can extend expiration date for data if consent is given
+    - Match using tags
 
 - Cons
-    - con1
+
+    - Could become annoying to users if its too frequent
+    - If an error is persitant in the 3rd parties code or even in some custom code, GDPR may still be violated. 
+    - If n8n goes down or is no longer available, system is redundant. 
 
 <h3> High cost </h3>
 
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-    - con1
-
-
-
-
+High cost in this section was already mentioned in "I want to prepare a database that can deliver a VOLUNTARY SECTOR JOB MATCH"
 
 
 ### I don’t know what there is nationally of a similar offer.
 
-#### Consensus on topic
-
-<h3>Low cost</h3>
-
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-    - con1
-
-<h3> Medium cost </h3>
-
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-    - con1
-
-<h3> High cost </h3>
-
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-    - con1
-
+A small part is going to be here since it was mentioned previously using the research I have acquired.  
 
 
 ### I wish to avoid GDPR issues with information we hold or share
@@ -494,151 +464,130 @@ This section was covered in the previous section
     - con1
 
 
-
-
-
-
 ### It will need to describe knowledge areas, skills, previous or type of project/ work done and seeking as well as work areas considered .
 
 #### Consensus on topic
 
+Maybe talk about an extension on user accounts that can have a experience field to describe what they already know, their experiences and skills
+
+In here, low cost, mention static website that is already existing that can describe the knowledge areas, skills, previous or type of project/ work done and seeking as well as work areas considered.
+
+In here, medium, is the same for low cost.
+
+In here, high, is the same for medium.
+
 <h3>Low cost</h3>
 
 
+Static website that just has good descriptions of volunteering roles and their requirements. 
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - Easily hosted
+    - Cheap
 
 - Cons
-    - con1
+
+    - Manually required to be written
+    - Cant be grabbed from a database 
+    - Cant have user profiles showing their own skill sets and experiences
 
 <h3> Medium cost </h3>
 
-
+Given n8n (other automation services may vary), we cant expose a database or data top any internal or external services, so this means we cant store job postings and will need to use a VMS
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - None
 
 - Cons
-    - con1
+
+    - All
+    - Need an external service
 
 <h3> High cost </h3>
 
+Because the system is ours, we can mould it however we like. For example, we can require users include a minimum of experience or click a checkbox to say no experience. We can also let the user log if they are looking for career development or not. We can also enfoce the descriptive nature for volunteer postings also. 
 
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - Can make the requirements as needed
+    - Can make error checking to decide if description is apt
 
 - Cons
-    - con1
 
-
-
+    - Has to be manually made
+    - Prone to possible [sanitsation](https://en.wikipedia.org/wiki/Data_sanitization) errors
 
 
 ### It could also have  a “ jobs available “ / skills Im looking for section
 
-#### Consensus on topic
-
-<h3>Low cost</h3>
-
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-    - con1
-
-<h3> Medium cost </h3>
-
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-    - con1
-
-<h3> High cost </h3>
-
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-    - con1
-
-
-
-
+Already described in previous section. 
 
 ### Id like to have a reporting facility to check number of users  
 
+This will be easily explained in cost measures below. 
+
 #### Consensus on topic
 
 <h3>Low cost</h3>
 
-
+This will require an employee to manually count all the users or check the number at the left of a spreadsheet to determine the amount of users at any given time. 
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - Simple
 
 - Cons
-    - con1
+
+    - Waste of time
 
 <h3> Medium cost </h3>
 
-
+Automation software can do this automatically. This can also do this in intervals too. Can be sent via E-Mail etc. 
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - Customisable
+    - Automated
+    - Polling
 
 - Cons
-    - con1
+    
+    - N/A 
 
 <h3> High cost </h3>
 
+This would be a system to query the database and return number of users. This would be found on an admin account for the site with a dashboard to reflect admin capabilities. This could be as simple as
 
+
+```sql
+
+SELECT COUNT(*)
+FROM Users;
+
+```
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - Customisable
 
 - Cons
-    - con1
 
-
-
-
-
+    - Complex for simple system 
 
 ## Collection of form questions used for a company/organisation to post volunteering postings
 <h1> 
