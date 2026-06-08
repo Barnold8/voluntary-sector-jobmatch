@@ -246,6 +246,7 @@ A low cost methodology for this would be based on using [google forms](https://d
     - Form can be used to facilitate companies posting their volunteer roles
 
 - Cons
+
     - Manual user review
     - Possible bot account problem (if they use [burner emails](https://en.wikipedia.org/wiki/Disposable_email_address) or [stolen emails](https://en.wikipedia.org/wiki/Email_hacking))
     - Does not work well for a small team of employees to sift through loads of information 
@@ -253,10 +254,11 @@ A low cost methodology for this would be based on using [google forms](https://d
     - User error could mismatch people with the wrong opportunities
     - Employee working with data must know what roles match with what opportunities rather than having users match automatically
     - Employees must contact organisations for the match rather than the user being able to contact directly 
+    - Employees will have to update the listings page for roles after they have manually 
 
 <h3> Medium cost </h3>
 
-An automation platform would be a medium cost effective way to go about this when looking at the [n8n platform](https://n8n.io/). Why is this? Well we can have multiple forms, pages etc to take on user interaction and automate the entire process. We can have systems that are frequently checking users against volunteering opportunties to properly match them with roles and have Ai systems help users progress their careers via voluntary roles. 
+An automation platform would be a medium cost effective way to go about this when looking at the [n8n platform](https://n8n.io/). Why is this? Well we can have multiple forms, pages etc to take on user interaction and automate the entire process. We can have systems that are frequently checking users against volunteering opportunties to properly match them with roles and have Ai systems help users progress their careers via voluntary roles. We need a system 
 
 **Pros vs cons**
 
@@ -267,13 +269,25 @@ An automation platform would be a medium cost effective way to go about this whe
     - AI powered 
     - Contains a lot of 3rd party services like [survey monkey](https://www.surveymonkey.com/) and [Gmail](https://www.google.com/gmail/about/signup_complete.html)
     - Has AI chat assistant that _**sometimes**_ helps out with problems encountered in the automation process
+    - 24/7 support
+    - Has support for databases so we can store user accounts and organisation accounts as well as postings
+    - Has possibility of completely replacing a charity website if need be, otherwise have links to n8n nodes. 
 
 - Cons
+
     - Requires somewhat knowlegeable user to set up the initial systems
+    - Requires to be paid monthly as its a subscription based service
+    - Limited on the amount of monthly executions based on the plan used
+        - Executions in the context is just how many times the service can be   interacted with 
+    - Limited AI usage based on the plan used
+    - Possibly less permission filtering in comparison to other systems
+    - If it goes down theres nothing you can do, no way to fix it yourself
 
 <h3> High cost </h3>
 
-A high cost methodology would be something that can withstand high user bandwith and be error corrective and automatic. First we will need to store user accounts, this will be done to avoid spam applicants and [scrapers](https://en.wikipedia.org/wiki/Web_scraping)
+A high cost methodology would be something that can withstand high user bandwith and be error corrective and automatic. First we will need to store user accounts, this will be done to avoid spam applicants and [scrapers](https://en.wikipedia.org/wiki/Web_scraping), its a good idea to store the organisation accounts too so companies can post volunteering roles and have seperate permissions in comparison to the user when using the website. To store said accounts we will need a [database](https://en.wikipedia.org/wiki/Database) with multiple [tables](https://en.wikipedia.org/wiki/Table_(database)) and it needs to be [relational](https://en.wikipedia.org/wiki/Relational_database), this will need to be hosted on a server. We also need to have a [server](https://en.wikipedia.org/wiki/Web_server) that hosts the website, preferably a different machine or sub section of a [VPS](https://en.wikipedia.org/wiki/Virtual_private_server), which is where some of the cost will come from. The server could be self hosted on a [local machine](https://www.linfo.org/local_machine.html) or on a cloud service like [digital ocean](https://www.digitalocean.com/solutions/vps-hosting)
+
+[load balancing](https://en.wikipedia.org/wiki/Load_balancing_(computing))
 
 **Pros vs cons**
 
@@ -282,6 +296,7 @@ A high cost methodology would be something that can withstand high user bandwith
     - pro1
 
 - Cons
+
     - con1
 
 ### I may mean VOLUNTARY SECTOR SKILLS match
@@ -299,6 +314,7 @@ A high cost methodology would be something that can withstand high user bandwith
     - pro1
 
 - Cons
+
     - con1
 
 <h3> Medium cost </h3>
@@ -312,6 +328,7 @@ A high cost methodology would be something that can withstand high user bandwith
     - pro1
 
 - Cons
+
     - con1
 
 <h3> High cost </h3>
@@ -325,6 +342,7 @@ A high cost methodology would be something that can withstand high user bandwith
     - pro1
 
 - Cons
+
     - con1
 
 
