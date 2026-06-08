@@ -380,88 +380,83 @@ A small part is going to be here since it was mentioned previously using the res
 
 <h3>Low cost</h3>
 
-
+For all things that arent VMS hosted, this will need to be done manually by an employee.
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - Simple
+    - Free
 
 - Cons
-    - con1
+    
+    - Waste of time
+    - Waste of money (paying employee for wasteful time job)
+
 
 <h3> Medium cost </h3>
 
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-    - con1
+Mentioned in Career development
 
 <h3> High cost </h3>
 
-
-
-**Pros vs cons**
+A microservice can be made to automate this process.
 
 - Pros
 
-    - pro1
+    - Can follow GDPR guidelines to a T
+    - Can be done in any way, like an admin panel option, automated etc
 
 - Cons
-    - con1
-
-
+    
+    - If code spec isnt proper, GDPR guidelines could be failed. 
 
 
 ### I need people to register to use the service , and have a charge for users to generate income for its management.
+
+IN HERE FOR FUTURE, LOOK FOR PAYMENT SERVICES
+
+LOW COST - Manual money exchanges for organisational account usage (like being an organisation with the charity)
+
+MEDIUM COST - Can use Paypal, Stripe or even our own custom solution with HTTPS
+
+HIGH COST - Using a 3rd party payment solution system to authorise payment 
 
 #### Consensus on topic
 
 <h3>Low cost</h3>
 
-
+Low cost would require some payment platform on the website itself like [Stripe](https://stripe.com/), [WorldPay](https://www.worldpay.com/) or even [PayPal](https://www.paypal.com/)
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - 3rd party solution handles payment securely
 
 - Cons
-    - con1
+    
+- 3rd party solution handles payment securely
 
 <h3> Medium cost </h3>
 
-
+This is same as low cost but integrated in the automation softwarew
 
 **Pros vs cons**
 
 - Pros
 
-    - pro1
+    - 3rd party solution handles payment securely
 
 - Cons
-    - con1
+
+    - 3rd party solution handles payment securely
+    - Because it is 3rd party automation software, there are less payment options. 
 
 <h3> High cost </h3>
 
-
-
-**Pros vs cons**
-
-- Pros
-
-    - pro1
-
-- Cons
-    - con1
+Same as low cost, you would have to implement the API interaction yourself but it wouldnt be too dissimilar 
 
 
 ### It will need to describe knowledge areas, skills, previous or type of project/ work done and seeking as well as work areas considered .
@@ -597,3 +592,4 @@ DO THIS AFTER LOOKING AT ALL CHARITIES </h1>
 <h1> 
 DO THIS AFTER LOOKING AT ALL CHARITIES </h1>
 
+# MENTION ADS FOR FUNDRAISING ON THE WEBSITE AND ALSO MENTION ADS GETTING TO THE TOP OF GOOGLE SEARCH RESULTS
