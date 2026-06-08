@@ -231,6 +231,429 @@ Much like the app perspective, it makes perfect sense. The same usages you would
 
 #### Consensus on topic
 
+<h3>Low cost</h3>
+
+A low cost methodology for this would be based on using [google forms](https://docs.google.com/). The reasoning behind this is that it is **FREE** and can be easily converted to a .csv file for viewing in something like [Microsoft Excel](https://www.microsoft.com/en-gb/microsoft-365/excel) or [LibreOffice Calc](https://www.libreoffice.org/). However a user will have to manually click the generate csv button on the forms page and then open it and manually go through it. Granted, if they are used to the software, they could perform expressions to sift through data. On the charity website, a link to the form will be required. 
+
+**Pros vs cons**
+
+- Pros
+
+    - Free
+    - Can take all the required data
+    - Reliable (because its using a big 3rd party platform)
+    - No sign up is required to apply for a volunteering role and spam can relatively be filtered out because an email address is required to submit a form application
+    - Form can be used to facilitate companies posting their volunteer roles
+
+- Cons
+    - Manual user review
+    - Possible bot account problem (if they use [burner emails](https://en.wikipedia.org/wiki/Disposable_email_address) or [stolen emails](https://en.wikipedia.org/wiki/Email_hacking))
+    - Does not work well for a small team of employees to sift through loads of information 
+    - A lot of people could be missed out on volunteering opportunities due to user error
+    - User error could mismatch people with the wrong opportunities
+    - Employee working with data must know what roles match with what opportunities rather than having users match automatically
+    - Employees must contact organisations for the match rather than the user being able to contact directly 
+
+
+<h3> Medium cost </h3>
+
+Maybe an automation platform?
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> High cost </h3>
+
+A high cost methodology would be something that can withstand high user bandwith and be error corrective and automatic. First we will need to store user accounts, this will be done to avoid spam applicants and [scrapers](https://en.wikipedia.org/wiki/Web_scraping)
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+### I may mean VOLUNTARY SECTOR SKILLS match
+
+#### Consensus on topic
+
+<h3>Low cost</h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> Medium cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> High cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+
+
+
+### There is also an element of CAREER DEVELOPMENT in the **REDACTED** voluntary sector
+
+#### Consensus on topic
+
+<h3>Low cost</h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> Medium cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> High cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+
+
+
+
+
+### I don’t know what there is nationally of a similar offer.
+
+#### Consensus on topic
+
+<h3>Low cost</h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> Medium cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> High cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+
+
+### I wish to avoid GDPR issues with information we hold or share
+
+#### Consensus on topic
+
+<h3>Low cost</h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> Medium cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> High cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+
+
+
+### I need people to register to use the service , and have a charge for users to generate income for its management.
+
+#### Consensus on topic
+
+<h3>Low cost</h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> Medium cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> High cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+
+
+
+
+
+### It will need to describe knowledge areas, skills, previous or type of project/ work done and seeking as well as work areas considered .
+
+#### Consensus on topic
+
+<h3>Low cost</h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> Medium cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> High cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+
+
+
+
+### It could also have  a “ jobs available “ / skills Im looking for section
+
+#### Consensus on topic
+
+<h3>Low cost</h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> Medium cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> High cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+
+
+
+
+### Id like to have a reporting facility to check number of users  
+
+#### Consensus on topic
+
+<h3>Low cost</h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> Medium cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+<h3> High cost </h3>
+
+
+
+**Pros vs cons**
+
+- Pros
+
+    - pro1
+
+- Cons
+    - con1
+
+
+
+
 
 
 ## Collection of form questions used for a company/organisation to post volunteering postings
