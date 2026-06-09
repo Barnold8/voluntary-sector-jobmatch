@@ -7,7 +7,7 @@
 5. [Reach volunteering](#reach-volunteering)
 6. [CharityJob](#charityjobhttpswwwcharityjobcouksourcenav)
 7. [Do It](#do-it)
-8. [A look into random charities from around the UK](#a-look-into-random-charities-from-around-the-uk-)
+8. [A look into random charities from around the UK](#a-look-into-random-charities-from-around-the-uk)
 9. [TogetherCo - Brighton](#togetherco-brighton)
 10. [Manchester Community Central  Manchester](#manchester-community-central-manchester)
 11. [wtonvolunteers  Wolverhampton](#wtonvolunteers-wolverhampton)
