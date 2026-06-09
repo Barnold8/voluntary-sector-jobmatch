@@ -1,4 +1,171 @@
-How to obtain volunteers using cost effective measures
+\documentclass[11pt,a4paper]{article}
+
+% --- Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{booktabs}   % For professional tables
+\usepackage{geometry}   % For page margins
+\usepackage{hyperref}  % For clickable links and citations
+\usepackage{natbib}    % For bibliography management
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=none,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  breakatwhitespace=true,
+  tabsize=3
+}
+
+\geometry{margin=1in}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    urlcolor=blue
+}
+
+% --- Document Metadata ---
+\title{A Comparative Analysis of Cost-Effective Volunteer Recruitment Strategies in the UK}
+\author{Brandon Antony Wright}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+A small report on the technological methodologies to support volunteering charities in the modern world. 
+\end{abstract}
+
+\section{Introduction}
+
+Following a recent directive outlines the requirements for a proposed regional database, this report addresses the strategic foundation needed to launch a self-sustaining voluntary sector platform. The initial brief specified a system capable of delivering a voluntary sector "job" or "skills" match, incorporating career development tracking, user registration, a reporting facility, and a monetization model to fund ongoing management, all while strictly avoiding GDPR compliance issues. Please note that a full in depth look into the research done can be found \href{https://github.com/Barnold8/voluntary-sector-jobmatch/blob/main/Docs/Email.md}{here}, also note it's more a stream of consciousness rather than a professional piece of work
+
+\hfill \break
+Specifically, this report will look at three cost effective measures based on research looking into localised and national charities and how they operate. 
+
+\section{Methodology}
+
+To begin this process, I looked at more generalised charities that are popular in the UK. I looked into how they operate and speculated on their cost effective measures. This was done to start the groundwork of my understanding on the charity space and I have acquired a lot more understanding over time. However, it should be expected that I am wrong in some points since this is a week project and it takes longer to summarize a depth of knowledge on any sector. 
+
+\begin{itemize}
+    \item \href{https://reachvolunteering.org.uk/}{Reach} 
+    \item \href{https://www.charityjob.co.uk/?source=nav}{CharityJob}
+    \item \href{https://www.doit.life}{Do It}
+\end{itemize}
+
+My summary on these charities is that they are like a megaphone to smaller charities around the nation. Bolstering the volunteering sector into posting opportunities and pushing volunteers forward to bigger and better things through volunteer work. I would personally recommend looking into these charities and contacting them to collaborate where appropriate. 
+
+\hfill \break
+After the national charities, I looked at more localised charities around the UK looking into wealthier areas and poorer areas according to the 2021 sensus data (Household deprivation - census maps, ons) to gain an understanding of the different ways to obtain volunteers through differing price points, understanding how a charity thrives in a low cost environment comparative to a high cost environment.
+
+\hfill \break
+\hfill \break
+
+These are the charities I looked into for my research: 
+
+\begin{itemize}
+    \item \href{https://togetherco.org.uk/}{ TogetherCo - Brighton}
+    \item \href{https://manchestercommunitycentral.org/volunteer-centre-manchester}{Manchester Community Central - Manchester} 
+    \item \href{https://wtonvolunteers.org/}{Wtonvolunteers - Wolverhampton} 
+    \item \href{https://www.thekidsnetwork.org.uk/i-want-to-mentor?gad_source=1&gad_campaignid=22790719866&gbraid=0AAAAADRkgo9ZgrjOC3w8BTZU-XkR_5Yrm&gclid=Cj0KCQjw_vnQBhCxARIsADcZyxJlH0f1fgNgS3j_ExdetIzvqbD3oBxhusiLByw8EieP9HI863fcQbQaAlPtEALw_wcB}{The Kids Network - London} 
+    \item \href{https://volunteercentrenewcastle.org.uk/}{Volunteer Centre Newcastle - Newcastle} 
+    \item \href{https://vast.org.uk/}{Vast - Stoke on Trent} 
+    \item \href{https://www.bvsc.org/}{BVSC - Birmingham} 
+    \item \href{https://www.rainbows.co.uk/}{Rainbows - East Midlands} 
+\end{itemize}
+
+\section{Analysis / Findings}
+
+All the charities I researched have some form of registration for their volunteers and the organisations who wish to post volunteer roles. This will be important later to consider what tech will be required to facilitate registration methodologies if any at all. On top of this, all charities had some role searching capabilities to help volunteers find the roles they are looking for. A majority of these charities use some s
+
+ of form system to gather user/organisation data to register them with rather than the typical registration page. When considering these forms and their usage, we need to consider how the form is being handled when it is submitted. Is the form data appended to a row in a CSV? Is it logged in a database? Is it just sent via E-Mail to an employee? A cost effective strategy found specifically in the Newcastle charity researched, was the usage of Office 365. Using the forms software, employees can generate useful forms and be assured that its GDPR compliant in terms of securely passing information over the internet using military grade encryption and allowing users to delete data at request. 
+
+\hfill \break
+What was also found was the newsletter and/or recent news sections. While not the top priority for a charities success, it can be a good idea to show what is happening in the surrounding area for volunteer work. In the case of the newsletter, its a great autonomous reminder to registered volunteers about the charity, keeping said charity in the back of their mind for longer. It should also be noted that 3rd party platforms already exist to handle newsletters automatically for organisations. The following were found 
+
+\begin{itemize}
+    \item \href{https://www.cleverreach.com/en/newsletter-tool/creating-and-designing-newsletters/?tl=o8ejlo-aw_uk_cn&gad_source=1&gad_campaignid=1370877092&gbraid=0AAAAADj-Y5p11HESNGlfDIL4UX7zsALFv&gclid=CjwKCAjwxITRBhBYEiwA6mZm7ZlYPj1hoQf-Fzp6Ay-qqrejPVhJTuu8OYbZEhog0A4dmfQC6n6xlBoCZxUQAvD_BwE}{CleverReach}
+    \item \href{https://exclaimer.com/lp/14-day-free-trial/?hstk_creative=810959687171&hstk_campaign=23892133625&hstk_network=googleAds&creative=810959687171&keyword=email%20brand%20consistency&matchtype=b&network=g&device=c&utm_term=email%20brand%20consistency&utm_campaign=UK%20%7C%20Search%20%7C%20Generic%20%7C%20Broad%20Match%20A%2FB%2FC%20Landing%20Page%20Test&utm_source=adwords-search&utm_medium=cpc&utm_content=Broad%20-%20Brand%20Identity&hsa_acc=4500841410&hsa_cam=23892133625&hsa_grp=195322110445&hsa_ad=810959687171&hsa_src=g&hsa_tgt=kwd-2424627345829&hsa_kw=email%20brand%20consistency&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=23892133625&gbraid=0AAAAADzh7UANuNVAaIuF3fxvl9toXU9L-&gclid=CjwKCAjwxITRBhBYEiwA6mZm7UwT0Ct1B1Qu8LeeRH96L80FVK0YAwWXM3-chf2Cw3-fzRebgScf5hoCSUwQAvD_BwE}{Exclaimer}
+    \item \href{https://monday.com/crm/lp/campaigns?cq_src=google_ads&cq_cmp=23044226584&cq_term=email%20marketing%20software&cq_plac=&cq_net=g&cq_plt=gp&utm_medium=cpc&utm_source=adwordssearch&utm_campaign=gb-en-prm-workos-monday_campaigns-email_marketing-h-search-desktop-core-aw&utm_keyword=email%20marketing%20software&utm_match_type=p&cluster=crm_industries&subcluster=crm_healthcare&ati=&utm_adgroup=email%20marketing&utm_banner=775017905004&gad_source=1&gad_campaignid=23044226584&gbraid=0AAAAADeiQJuzMvjpNP5Fb8wJ0IXbxiNiK&gclid=CjwKCAjwxITRBhBYEiwA6mZm7Z7wvFhfbakc2QlzwoKGuzz8tRepHgZ_hfrbt0brv2AbROvnt8Z1aRoCZQ0QAvD_BwE}{Monday Campaigns}
+
+\end{itemize}
+
+It should also be noted that an alternative to these paid subscription services is quite simple and cost effective. Simply writing an E-Mail and using the CC feature to all registered newsletter participants works just as well if not taking more time than a paid subscription.  
+
+\hfill \break
+Booking a meeting with a charity was found to also be a common methodology. What was found was in all cases where a booking was possible, \href{https://calendly.com/}{calendly} was used. The likely reason booking is common is because its a great alternative to rigid account registration where empathy and complex triaging is none existent.  
 
 
-In this process I have looked into more generalised charities (list them) and then looked at more localised charities around the uk looking into wealthier areas and poorer areas according to the 2021 sensus data to gain an understanding the different ways to get volunteers through differing price points. 
+\section{The three cost measures}
+
+This section is here to suggest three methodologies. The low cost will assume a charity with next to no funding. The medium cost will most closely resemble the average charity, not struggling but not prospering either. The high cost will assume a charity with a lot of funding to put wherever it is needed. The assumption for this section is that some website already exists for the charity that is accessible to be edited as needed and is already running on a web server somewhere on the internet, this fact will not be considered as one of the cost measures. The requested measures from the client's E-Mail will be found in the generalised "Storing user and organisation accounts while also displaying job postings" chapter in each cost section. The reasoning behind this because all the main requirements are closely coupled with that problem as it stands. 
+
+\subsection{Low Cost}
+
+The low cost approach for this needs to pay as little money as possible while providing the best system and experience to organisations and volunteers.
+
+\subsubsection{Storing user and organisation accounts while also displaying job postings}
+
+Now storing and displaying volunteering roles can work one of two ways here. The first is completely free but time consuming whereas the second is cheap but automatic. 
+
+\hfill \break
+The first would be to have a form for volunteers and organisations. The volunteer form would take specific information like their name, address, skill set, experience and if they are aiming to further their career or not. The organisation form would be similar but require respective fields like the address of the role, days that the role takes place, the time frame of the role, the hours for the days of the role etc. In this, an employee will have to contact and have meetings with volunteers to understand what they are looking for and follow up on possible volunteer roles that suit them. The employee must be trained in GDPR guidelines to ensure that no sensitive data is kept longer than is necessary. So while its free, it may be more of a headache and cost more in employee fees but something that \textbf{can} be considered. In terms of reporting statistics for this section, it may just be as simple as scrolling down the spreadsheet file and seeing what row number has data in it. For an updating value that can stay at the top you can use the following: 
+\hfill \break
+\begin{lstlisting}
+=COUNTA(A:A)
+
+Note: pick a column letter with data in it, this will update as the sheet updates
+\end{lstlisting}
+
+\hfill \break
+The second would be using a Volunteer Management System like \href{https://www.paamapp.com/}{PAAM} which can be embedded in a webpage on the website itself in an \href{https://en.wikipedia.org/wiki/HTML_element#Frames}{i-frame}. This can act as a pseudo database allowing role postings to be somewhat automated and also allows volunteers to register too. It can also skill match volunteer profiles to volunteer roles too (Bonterra, 2025). Due to this being a third party, the charity themselves do not have to worry about all the complex details that are required to keep the system running. The most the charity will have to do is embed the system within a webpage. With the skill matching system in place in the VMS, it also bolsters career development (Evans, 2024)! The only assumed downside to a VMS is the admin behind it all. The tech side of the system is all handled but the admin of it most likely isn't. It should also be noted that the VMS you choose may or may not have capabilities to enforce paid registration for organisational accounts. It may require some money to pay a developer to edit the current existing site to make this paid registration, prices may vary. 
+
+\subsection{Medium Cost}
+
+The medium cost doesn't concern itself with cutting costs at every possible turn but it also doesn't
+
+\subsection{High Cost}
+
+\section{Conclusion}
+
+The conclusion to the charity technology problem is mostly solved already with the VMS. However, there are aches and pains still relevant to this day with bad website designs and a VMS doesn't allow for customisability for systems. However it does provide all of the solutions to the clients problems so it's what I would suggest for simplicity and cost sakes. Personally, I would use the medium cost effective measure using the automation platform mentioned. With this you can still keep the old website but link to the nodes from the automation platform allowing for automatic systems to fire up when a user registers, when a new payment comes in from an organisation. The medium price point would provide all the proper statistical data to analyse how to properly move the charity forward and provide insights that might not be known with the possibly limited VMS. 
+
+
+% --- References Section ---
+\begin{thebibliography}{9}
+
+\bibitem{Bonterra}
+
+Bonterra (2025) 19 best volunteer management solutions for nonprofits, Bonterra. Available at: https://www.bonterratech.com/blog/volunteer-management-software (Accessed: 09 June 2026). 
+
+\textit{Bonterra (2025) }.
+
+\bibitem{Evans, A.}
+
+Evans, A. (2024) Is volunteer management important?, TeamKinetic. Available at: https://teamkinetic.co.uk/blog/2024/03/is-volunteer-management-important/ (Accessed: 09 June 2026). 
+
+\textit{Evans, A }
+
+\bibitem{census2021}
+Household deprivation - census maps, ons (no date) Home - Office for National Statistics. Available at: https://www.ons.gov.uk/census/maps/choropleth/population/household-deprivation/hh-deprivation/household-is-deprived-in-one-dimension (Accessed: 09 June 2026). 
+\textit{Census 2021 Data}.
+
+\end{thebibliography}
+
+\end{document}
