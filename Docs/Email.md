@@ -49,13 +49,13 @@ This is an overview of the requirements E-Mail. The contents are similar but are
 
     I don’t know what there is nationally of a similar offer.
 
-    I wish to avoid GDPR issues with information we hold or share
+    I wish to avoid GDPR issues with information we hold or share 
 
-    I need people to register to use the service , and have a charge for users to generate income for its management.
+    I need people to register to use the service , and have a charge for users to generate income for its management. /
 
-    It will need to describe knowledge areas, skills, previous or type of project/ work done and seeking as well as work areas considered .
+    It will need to describe knowledge areas, skills, previous or type of project/ work done and seeking as well as work areas considered . 
 
-    It could also have  a “ jobs available “ / skills Im looking for section
+    It could also have  a “ jobs available “ / skills Im looking for section /
 
     Id like to have a reporting facility to check number of users  
 

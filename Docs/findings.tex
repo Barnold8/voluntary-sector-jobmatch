@@ -7,9 +7,10 @@
 \usepackage{geometry}   % For page margins
 \usepackage{hyperref}  % For clickable links and citations
 \usepackage{natbib}    % For bibliography management
-
 \usepackage{listings}
 \usepackage{color}
+\usepackage{graphicx} %package to manage images
+\graphicspath{ {./Assets/} }
 
 \definecolor{dkgreen}{rgb}{0,0.6,0}
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
@@ -106,7 +107,7 @@ What was also found was the newsletter and/or recent news sections. While not th
 
 \end{itemize}
 
-It should also be noted that an alternative to these paid subscription services is quite simple and cost effective. Simply writing an E-Mail and using the CC feature to all registered newsletter participants works just as well if not taking more time than a paid subscription.  
+It should also be noted that an alternative to these paid subscription services is quite simple and cost effective. Simply writing an E-Mail and using the BCC feature to all registered newsletter participants works just as well if not taking more time than a paid subscription.  
 
 \hfill \break
 Booking a meeting with a charity was found to also be a common methodology. What was found was in all cases where a booking was possible, \href{https://calendly.com/}{calendly} was used. The likely reason booking is common is because its a great alternative to rigid account registration where empathy and complex triaging is none existent.  
@@ -138,17 +139,68 @@ The second would be using a Volunteer Management System like \href{https://www.p
 
 \subsection{Medium Cost}
 
-The medium cost doesn't concern itself with cutting costs at every possible turn but it also doesn't
+The medium cost doesn't concern itself with cutting costs at every possible turn but it also doesn't want to spend as much money as it has. 
+
+\hfill \break
+
+In this section we are going to use the \href{https://n8n.io/}{n8n} platform. N8n is an automation platform that can facilitate most of the requirements of the client while being customisable to meet new needs and is a medium cost effective measure. The downside to this approach is that a knowledgable person will need to set it up and will be required if changes are to be made to the system. With this we can create our own forms like the following:
+\begin{center}
+    \includegraphics[width=300]{Assets/n8n_form.png}
+\end{center}
+And with this, we can have the form be a link on the already existing website, maybe its a registration button or a hyperlink. On the back end, when the user submits the form, it will go through a system like the following:
+\begin{center}
+    \includegraphics[width=500]{Assets/n8n_automation.png}
+\end{center}
+
+This \textbf{very} simple example shows a system that appends the new registered user to a CSV and then send that email to an admin. The email step has an x because at testing it required some technical step that I couldn't set up at the time. All of the nodes in that graph are customisable too, which means we can sift through data, categorise it, report it back to an admin via email etc. The only downside to n8n that I am aware of in respect to the client's requirements is a proper data visualisation methodology like seeing user metrics on a user friendly dashboard. The n8n workflow can automatically add and remove from a database allowing for automatic sensitive data removal and appending new roles to a database that the website uses to list it's volunteer roles. Unfortunately n8n does not have any system in place to view and interact with data since its primarily a automation platform. But this database can be directly linked with the usage of the website using whatever frameworks are already in place with the website or implementing a new one. One of the great things with n8n in particular is the integrated payment platforms that come out of the box, you just add a payment related node and once a payment is authenticated, you can pass the process along to the next step. This is what we can do for the organisation side of things, requiring an organisation to pay a one time fee to register with the service or for every post (however the second option may put a lot of organisations off). Because the system is automated, we can add a procedure to check over the data for us and purge any data that would violate GDPR guidelines just before they would violate them. Again, with an automated platform we can set intervals for skill matching with organisations to occur. The system would every so few days or weeks compare the entire set of users and their skills with the current volunteer roles available and match the as best as possible. And with the AI integration, we can use the intelligence side of AI to match candidates better to roles than a predertimed algorithm could. 
+
+\hfill \break
+So in short, this option becomes like the low cost version, but with more reporting, more refined data analysis techniques and no headaches due to automated system features doing all the heavy lifting. 
 
 \subsection{High Cost}
 
+The high cost approach for this needs doesn't concern itself with how much things cost because we can assume a charity somehow has funds to spare on development costs like this. So how do we use money to make the most robust and diverse system for a volunteering charity? Since we are having this made from scratch, we are going to have to consider things that wouldn't need to be considered when using 3rd party systems. For example, the resilience of the system itself, can it handle large droves of users? Can it handle cyber attacks from criminals? This section will have a lot of technical jargon but I will try my best to explain it in laimens terms such that anybody can understand irregardless of experience level. 
+
+The system I have devised can be seen in the diagram below:
+
+\begin{center}
+    \includegraphics[width=500]{Assets/High-cost-strategy.png}
+\end{center}
+
+The "client app / Web front end" is the website itself. In this part we will handle basic security dilemmas that can happen from attackers. Please note the website itself is just what we send to a client when they go to the URL for the website. The website itself would include a search page for volunteers to search for a role, registration page, so organisations and volunteers can register with the charity, an about us section among many of the other pages you see on the average charity web page. Because this is custom, we can use whatever frameworks we like so we can make the website look to the clients specification. With the front end being whatever we want it to be, we can use whatever payment platforms we want and change them out if needed. We could use Paypal, Stripe among other payment platforms. This means that we can use a subscription based model or a one time payment model for organisations to pay to be able to post to the charity's role post section. This means that we will have no spam and the charity can keep up with management costs. With this too, we can also implement any advertisement platform we want too to increase funds to the charity through ad sense. 
+
+\hfill \break
+
+The Load balancer is a common idea in server programming to distribute the web traffic coming into the servers evenly to avoid overloading one server in a network. You can think of this like not having too many people going through one ticket gate at a train station but being evenly distributed through all of them such that the gates don't fail, its the same premise. 
+
+\hfill \break
+
+The web servers are what the browser actually communicates with to provide the services the volunteers and organisations require. On top of this, they'll come with automated software that'll automatically purge any data that voids GDPR guidelines and sends user count reports among other statistics to the admin when they request it on the web front end. 
+
+\hfill \break
+
+The relational database is where all the information we need to keep will be stored. This will be stuff like, organisational accounts, user accounts, role postings, newsletter updates etc. Because the database is relational it means pieces of data are linked with others. This means that we can match volunteers skills that they have included in their profile with roles that have been posted and we can do this at any interval we please. The actual processing of this could either be done on a web server itself, or to reduce any stress on the webserver, this could be hosted on a separate machine or on the cloud as a microservice. 
+
+\hfill \break
+The reason this costs the most isn't necessarily the initial development costs but the upkeep and running of multiple servers and possible maintenance that would occur over time.  
+
+
 \section{Conclusion}
 
-The conclusion to the charity technology problem is mostly solved already with the VMS. However, there are aches and pains still relevant to this day with bad website designs and a VMS doesn't allow for customisability for systems. However it does provide all of the solutions to the clients problems so it's what I would suggest for simplicity and cost sakes. Personally, I would use the medium cost effective measure using the automation platform mentioned. With this you can still keep the old website but link to the nodes from the automation platform allowing for automatic systems to fire up when a user registers, when a new payment comes in from an organisation. The medium price point would provide all the proper statistical data to analyse how to properly move the charity forward and provide insights that might not be known with the possibly limited VMS. 
+The conclusion to the charity technology problem is mostly solved already with the VMS. However, there are aches and pains still relevant to this day with bad website designs and a VMS doesn't allow for customisability for systems. However it does provide all of the solutions to the clients problems so it's what I would suggest for simplicity and cost sakes. Personally, I would use the medium cost effective measure using the automation platform mentioned. With this you can still keep the old website but link to the nodes from the automation platform allowing for automatic systems to fire up when a user registers, when a new payment comes in from an organisation. The medium price point would provide all the proper statistical data to analyse how to properly move the charity forward and provide insights that might not be known with the possibly limited VMS. However, if the charity ever becomes way too big that an automation platform can not suffice, the high cost solution may be the best outcome due to the unlimited potential for the client's requirements. The high cost will be overkill for even the biggest charities out there irregardless since many 3rd party platforms are doing all of the heavy lifting anyway.  
 
+\section{Less technical but possibly valuable outlook}
+
+When it comes to the modern world, it matters to keep up with rising trends and how the youth and the general public view charities and the voluntary sector in general. With social media being as popular as it ever has been, and now how so many people are stuck on it day to day (Number of social media users worldwide 2030 2026), it may be worth using these platforms to gain attention and steer more eyes to the voluntary sector (R/digitalmarketing on reddit: How can businesses use social media marketing). This could increase funding, generalised interest and possibly bring people to the charity who have never heard of it before. Personally, I had never heard of *REDACTED* until it was brought up through word of mouth. Even in todays age, it still somewhat comes down not to what you know but who you know. It may even be more cost effective to hire a social media manager to post on social media, follow trends and garner positive attention for the charity (Why a strong social media presence is essential for business growth in 2026). Another methodology to gain new volunteers would be paying for ads. A simple example would be paying for the sponsored result on google search results, this way you can appear at the \textbf{very} top of search results. A way to earn funds, that may be in distaste to a charity, im not sure, would be to physically have ads on the charity website. That way you can turn traction to the website to direct funding to the charity. 
 
 % --- References Section ---
 \begin{thebibliography}{9}
+
+\bibitem{Blackcountrychamber}
+
+Why a strong social media presence is essential for business growth in 2026 (no date) Why a Strong Social Media Presence Is Essential for Business Growth in. Available at: https://www.blackcountrychamber.co.uk/news/article/why-a-strong-social-media-presence-is-essential-for-business-growth-in-2026/ (Accessed: 09 June 2026). 
+
+\textit{blackcountrychamber}
 
 \bibitem{Bonterra}
 
@@ -156,15 +208,30 @@ Bonterra (2025) 19 best volunteer management solutions for nonprofits, Bonterra.
 
 \textit{Bonterra (2025) }.
 
+\bibitem{census2021}
+Household deprivation - census maps, ons (no date) Home - Office for National Statistics. Available at: https://www.ons.gov.uk/census/maps/choropleth/population/household-deprivation/hh-deprivation/household-is-deprived-in-one-dimension (Accessed: 09 June 2026). 
+\textit{Census 2021 Data}.
+
 \bibitem{Evans, A.}
 
 Evans, A. (2024) Is volunteer management important?, TeamKinetic. Available at: https://teamkinetic.co.uk/blog/2024/03/is-volunteer-management-important/ (Accessed: 09 June 2026). 
 
 \textit{Evans, A }
 
-\bibitem{census2021}
-Household deprivation - census maps, ons (no date) Home - Office for National Statistics. Available at: https://www.ons.gov.uk/census/maps/choropleth/population/household-deprivation/hh-deprivation/household-is-deprived-in-one-dimension (Accessed: 09 June 2026). 
-\textit{Census 2021 Data}.
+\bibitem{R/digitalmarketing}
+
+(No date) R/digitalmarketing on reddit: How can businesses use social media marketing. Available at: \href{https://www.reddit.com/r/DigitalMarketing/comments/t8vhqt/how_can_businesses_use_social_media_marketing/}{R/digitalmarketing} (Accessed: 09 June 2026). 
+
+\textit{R/digitalmarketing }
+
+\bibitem{Statista}
+
+Published by  Statista Research Department and 16, M. (2026) Number of social media users worldwide 2030, Statista. Available at: https://www.statista.com/forecasts/278414/number-of-worldwide-social-network-users/ (Accessed: 09 June 2026). 
+
+\textit{Statista}
+
+
+
 
 \end{thebibliography}
 
