@@ -1,3 +1,38 @@
+# Table of contents
+
+1. [Email -> Ideas](#email-ideas)
+2. [Statement](#statement)
+3. [Raw filtered email](#raw-filtered-email)
+4. [What volunteering services and companies already exist and how are they operating?](#what-volunteering-services-and-companies-already-exist-and-how-are-they-operating)
+5. [Reach volunteering](#reach-volunteering)
+6. [CharityJob](#charityjobhttpswwwcharityjobcouksourcenav)
+7. [Do It](#do-it)
+8. [A look into random charities from around the UK](#a-look-into-random-charities-from-around-the-uk-)
+9. [TogetherCo - Brighton](#togetherco-brighton)
+10. [Manchester Community Central  Manchester](#manchester-community-central-manchester)
+11. [wtonvolunteers  Wolverhampton](#wtonvolunteers-wolverhampton)
+12. [The Kids Network London](#the-kids-network-london)
+13. [Volunteer Centre Newcastle Newcastle](#volunteer-centre-newcastle-newcastle)
+14. [Vast Stoke on Trent](#vast-stoke-on-trent)
+15. [BVSC Birmingham](#bvsc-birmingham)
+16. [rainbows](#rainbows)
+17. [Taking the ideas head on](#taking-the-ideas-head-on)
+18. [I want to prepare a database that can deliver a VOLUNTARY SECTOR JOB MATCH](#i-want-to-prepare-a-database-that-can-deliver-a-voluntary-sector-job-match)
+19. [Usage for an app](#usage-for-an-app)
+20. [Usage for a API](#usage-for-a-api)
+21. [Usage for a website](#usage-for-a-website)
+22. [Consensus on topic](#consensus-on-topic)
+23. [I may mean VOLUNTARY SECTOR SKILLS match](#i-may-mean-voluntary-sector-skills-match)
+24. [There is also an element of CAREER DEVELOPMENT in the **REDACTED** voluntary sector](#there-is-also-an-element-of-career-development-in-the-redacted-voluntary-sector)
+25. [I don’t know what there is nationally of a similar offer.](#i-dont-know-what-there-is-nationally-of-a-similar-offer)
+26. [I wish to avoid GDPR issues with information we hold or share](#i-wish-to-avoid-gdpr-issues-with-information-we-hold-or-share)
+27. [I need people to register to use the service , and have a charge for users to generate income for its management.](#i-need-people-to-register-to-use-the-service-and-have-a-charge-for-users-to-generate-income-for-its-management)
+28. [It will need to describe knowledge areas, skills, previous or type of project/ work done and seeking as well as work areas considered .](#it-will-need-to-describe-knowledge-areas-skills-previous-or-type-of-project-work-done-and-seeking-as-well-as-work-areas-considered-)
+29. [It could also have  a “ jobs available “ / skills Im looking for section](#it-could-also-have-a-jobs-available-skills-im-looking-for-section)
+30. [Id like to have a reporting facility to check number of users  ](#id-like-to-have-a-reporting-facility-to-check-number-of-users-)
+31. [Collection of form questions used for a company/organisation to post volunteering postings](#collection-of-form-questions-used-for-a-companyorganisation-to-post-volunteering-postings)
+32. [Collection of form questions used to aquire a volunteer](#collection-of-form-questions-used-to-aquire-a-volunteer)
+33. [MENTION ADS FOR FUNDRAISING ON THE WEBSITE AND ALSO MENTION ADS GETTING TO THE TOP OF GOOGLE SEARCH RESULTS](#mention-ads-for-fundraising-on-the-website-and-also-mention-ads-getting-to-the-top-of-google-search-results)
 # Email -> Ideas
 
 ## Statement
@@ -583,13 +618,3 @@ FROM Users;
 - Cons
 
     - Complex for simple system 
-
-## Collection of form questions used for a company/organisation to post volunteering postings
-<h1> 
-DO THIS AFTER LOOKING AT ALL CHARITIES </h1>
-
-## Collection of form questions used to aquire a volunteer
-<h1> 
-DO THIS AFTER LOOKING AT ALL CHARITIES </h1>
-
-# MENTION ADS FOR FUNDRAISING ON THE WEBSITE AND ALSO MENTION ADS GETTING TO THE TOP OF GOOGLE SEARCH RESULTS

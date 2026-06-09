@@ -2,15 +2,22 @@ TODO:
 
 1. Look at other small volunteering charity websites to see how they do it so we can 
 
+    DONE
+
 2. Look into 3rd party solutions for the following and how the self hosted version would compare
     Note: compare possible costs and support (like 24/7 support from a 3rd party compared to one developer)
 
+    DONE
+
 3. Write 3 types of cost solution types for each thing that is wanted from the stakeholder. Low cost, medium cost, high cost
 
+    DONE
 
-HOPEFUL
 
-4. Make a demo
+4. MENTION ADS FOR FUNDRAISING ON THE WEBSITE AND ALSO MENTION ADS GETTING TO THE TOP OF GOOGLE SEARCH RESULTS
+
+
+5. Make a demo
     4.1 Make a diagram of a relational database that would work for the charity
     4.2 Make a static website (so i can use github pages) that would demo the sort of website the charity can expect
     
